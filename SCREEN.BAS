@@ -1,0 +1,4 @@
+SCREEN 12
+VIEW (1, 1)-(640, 480)
+SCREEN
+

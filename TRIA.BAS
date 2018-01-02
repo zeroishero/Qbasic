@@ -1,0 +1,39 @@
+SCREEN 12
+PSET (200, 200)
+DRAW "nr100"
+FOR i = 0 TO 360
+DRAW "bu49u1ta" + STR$(i)
+PSET (200, 200)
+NEXT
+
+PSET (200, 200)
+DRAW "br100"
+
+FOR i = 0 TO 360
+DRAW "bu49u1ta" + STR$(i)
+PSET (300, 200)
+NEXT
+
+PSET (200, 200)
+DRAW "ta60r100"
+DRAW "ta300r100"
+
+
+PSET (200, 200)
+DRAW "ta60r100ta0"
+
+FOR i = 0 TO 360
+DRAW "bu49u1ta" + STR$(i)
+PSET (200, 200)
+DRAW "ta60r100ta" + STR$(i)
+NEXT
+
+END
+'ta60r50 ""
+PSET (200, 200)
+DRAW "ta0br50ta120r50"
+
+
+PSET (100, 100)
+DRAW "r100"
+
